@@ -1,48 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Document</title>
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <section class="section">
-    <nav class="navbar" role="navigation">
-      <div class="navbar-brand"><img src="images/PSLogo.jpg" alt="logo"></div>
-      <div class="navbar-menu">
-        <div class="navbar-start">
-          <!-- dropedown start -->
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              General Contractors
-            </a>
 
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                PipelineRFQ Bid Invitation Software
+<body>
+  <!-- navbar -->
+  <section class="section">
+    <nav class="navbar is-relative" role="navigation">
+      <div class="container">
+
+        <div class="navbar-start"><img class="image" src="images/PSLogo.jpg" alt="logo"></div>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <!-- dropedown start -->
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                General Contractors
               </a>
-              <a class="navbar-item">
-                PipelineOPR Online Plan Room
-              </a>
-              <a class="navbar-item">
-                PipelinePrequal Qualification Software
-              </a>
-              <!-- <hr class="navbar-divider"> -->
-              <a class="navbar-item">
-                PipelineDirectory Searchable Subcontractor Directory
-              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  PipelineRFQ Bid Invitation Software
+                </a>
+                <a class="navbar-item">
+                  PipelineOPR Online Plan Room
+                </a>
+                <a class="navbar-item">
+                  PipelinePrequal Qualification Software
+                </a>
+                <a class="navbar-item">
+                  PipelineDirectory Searchable Subcontractor Directory
+                </a>
+              </div>
             </div>
+            <!-- dropdown end -->
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Subcontractors
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  PipelineBid- Bid Tracking Software
+                </a>
+                <a class="navbar-item">
+                  PipelineDirectory- Subcontractor Directory
+                </a>
+                <a class="navbar-item">
+                  Stack -- Takeoff & Estimating Software
+                </a>
+              </div>
+            </div>
+            <!-- dropdown end -->
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
           </div>
-          <!-- dropdown end -->
         </div>
       </div>
-
     </nav>
+    <!-- Navbar end -->
+    <div class="has-text-centered">
+      <h1 class="title is-2">Construction Bidding Software Made Easy</h1>
+      <button class='button is-success'>General Contractors</button>
+      <button class='button is-success'>Subcontractors</button>
+    </div>
+    <div class="hero is-flex">
+      <div class="hero-body">
+        <div class="container">
+          <img src="https://via.placeholder.com/300x150" alt="video">
+          <h2 class="title is-4">
+            PipelineSuite® helps you manage your pre-construction "pipeline" more efficiently so you can win more bids
+          </h2>
+        </div>
+      </div>
+    </div>
   </section>
 </body>
 
